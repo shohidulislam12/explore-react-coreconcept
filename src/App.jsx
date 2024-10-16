@@ -4,6 +4,7 @@ import Counter from './count'
 import Team from './team'
 import User from './user'
 import Friends from './friends'
+import Comments from './comments'
 
 function App() {
  function handleclick(){
@@ -20,6 +21,7 @@ alert(num+5)
     <>
 
       <h3>React core conceept 2</h3>
+      <Comments></Comments>
       <Counter></Counter>
       <Friends></Friends>
       <User></User>
